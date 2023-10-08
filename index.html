@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM and DOM</title>
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="assets/style/index.css">
+</head>
+
+<body>
+    <!-- Window Scroll  -->
+    <!-- <nav class="windowNavbar ">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1>Logo</h1>
+            <ul class="d-flex gap-2">
+                <a href="">Home</a><a href="">About</a><a href="">Service</a>
+            </ul>
+        </div>
+    </nav>
+<div class="toTop">
+</div> -->
+
+    <!-- ======================= -->
+    <!-- Todo List  -->
+    <div class="todoList shadow p-3 rounded-3">
+        <h6 class="text-center text-uppercase">My Todo List</h6>
+        <div class="todoList_Service d-flex gap-2 justify-content-center">
+            <input type="text" class="form-control todoInput" placeholder="Enter Your Tasks">
+            <button class="btn btn-primary btn-sm addTodo">Add Todo</button>
+        </div>
+    </div>
+    <div class="todoTable mt-5">
+        <table class="table text-center">
+            <tr>
+                <th>Task NAme</th>
+                <th>Edit</th>
+                <th>Delete</th>
+                <th>Creation Date</th>
+            </tr>
+            <tbody id="showTodo">
+
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/script/main.js"></script>
+</body>
+
+</html>
